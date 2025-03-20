@@ -39,7 +39,7 @@ echo $user['surname'] . ' ' . $user['name'] . ' ' . $user['patronymic'] . "\n";
 
 
 $date = ['year' => date('Y'), 'month' => date('m'), 'day' => date('d')];
-echo $date['year'] . '/' . $date['month'] . '/' . $date['day'] . "\n";
+echo $date['year'] . '-' . $date['month'] . '-' . $date['day'] . "\n";
 
 $arr = ['a', 'b', 'c', 'd', 'e'];
 print_r($arr);
